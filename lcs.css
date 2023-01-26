@@ -128,7 +128,7 @@ nav ul button:hover{
     margin-bottom: 20px;
     text-align: right;
     transform: translateX(-20px);
-    transition transform: 0.5s;
+    transition: transform 0.5s;
 }
 
 .header-block .text p{
@@ -136,5 +136,5 @@ nav ul button:hover{
     text-align: right;
     color: white;
     transform: translateX(-20px);
-    transition: transform:0.4s;
+    transition: transform 0.4s;
 }
