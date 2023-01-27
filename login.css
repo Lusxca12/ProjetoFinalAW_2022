@@ -1,0 +1,14 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">);
+
+  :root {
+    --orange:#f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+}
+
+
+body{
+    background-color: var(--orange);
+}
