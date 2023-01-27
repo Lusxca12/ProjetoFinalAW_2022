@@ -52,21 +52,29 @@ nav{
     font-size: 24px;
     color: var(--blue);
     cursor: pointer;
+    
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
+    scroll-behavior: smooth;
+
 }
 nav ul li{
     list-style: none;
     padding: 10px;
     cursor: pointer;
+    box-shadow: 0px 2px 4px;
+    
 }
 
 nav ul li a{
     color: var(--blue);
     text-decoration: none;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
 
 }
 
