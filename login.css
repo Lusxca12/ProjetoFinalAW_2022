@@ -84,3 +84,23 @@ a{
   text-decoration: none;
   margin-left: 10px;
 }
+
+.botao {
+  width: 35%;
+  height: 120%;
+  display: block;
+  background-color:var(--gray);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: x-small;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
