@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+
+
+
+.titulo {
+    font-style: italic;
+    font-size: large;
+}
+
+.titulo2 {
+    font-variant: small-caps;
+=======
+body {
+    text-align: center;
+}
+
+.titulos {
+    margin-top: 50px;
+>>>>>>> 19fb68a3f6c28b348c51d70321e8cc62ddfe4cd0
+}
