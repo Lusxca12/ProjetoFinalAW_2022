@@ -108,9 +108,9 @@ nav ul button:hover{
 }
 
 .header-block img{
-    width: 62%;
-    position: absolute;
-    right: 1%;
+    width: 60%;
+    position:absolute;
+    right: 0%;
     bottom: 20%;
 
 
@@ -119,7 +119,8 @@ nav ul button:hover{
 .header-block .text{
     position: absolute;
     bottom: 30%;
-    left: 15%;
+    left: 13%;
+    height: 110px;
 }
 
 
