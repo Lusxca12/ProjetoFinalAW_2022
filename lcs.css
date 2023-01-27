@@ -190,7 +190,7 @@ section .card-wrapper{
     max-width: 1000px;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     grid-gap: 30px;
     padding: 50px;
 }
@@ -438,4 +438,51 @@ footer .last{
         margin-top: 100px;
     }
 
+    .title-wrapper-about{
+        margin-top: 20px;
+    }
+
+    .about-content{
+        flex-direction: column;
+        height: 100%;
+    
+    }
+
+    .left{
+       display: none; 
+    }
+
+    .right{
+        width: 90%;
+    }
+
+    .right p {
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+
+
+    .features{
+        height: 100%;
+    }
+
+    .feature-card-block{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    footer .main{
+        height: 100%;
+    }
+
+   .footer-links {
+    flex-direction: column;
+    padding-left: 10%;
+   }
 }
