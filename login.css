@@ -96,6 +96,7 @@ a{
   cursor: pointer;
   margin-top: 1rem;
   font-size: x-small;
+  border-radius: 10px;
 }
 
 .botoes {
@@ -103,4 +104,5 @@ a{
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+  border-radius: 10px;
 }

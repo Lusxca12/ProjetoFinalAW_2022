@@ -5,8 +5,15 @@
     font-family: "poppins", sans-serif;
 }
 
+:root {
+    --orange:#f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+}
+
+
 body{
-    background-color: #ededed;
+    background-color:var(--gray);
 }
 
 .menu {
@@ -81,5 +88,11 @@ body{
 }
 
 .rigth-side img{
-    background-color: #00285f;
+    background-color:var(--blue);
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--blue);
+  text-decoration: none;
 }
