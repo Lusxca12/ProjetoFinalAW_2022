@@ -35,8 +35,12 @@ header{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    animation: fadIn 1s linear; 
+}
 
-
+@keyframes fadIn {
+   from {opacity: 0;}
+   to{opacity: 1;}
 }
 
 nav{
@@ -52,8 +56,14 @@ nav{
     font-size: 24px;
     color: var(--blue);
     cursor: pointer;
-    
+    animation: fadIn 1s linear; 
 }
+
+@keyframes fadIn {
+   from {opacity: 0;}
+   to{opacity: 1;}
+}
+
 
 nav ul{
     display: flex;
@@ -124,10 +134,16 @@ nav ul button:hover{
     position:absolute;
     right: 0%;
     bottom: 20%;
-
-
 }
 
+.header-block img{
+animation: fadIn 1s linear; 
+}
+
+@keyframes fadIn {
+   from {opacity: 0;}
+   to{opacity: 1;}
+}
 .header-block .text{
     position: absolute;
     bottom: 30%;
@@ -135,6 +151,14 @@ nav ul button:hover{
     height: 110px;
 }
 
+.header-block .text {
+animation: fadIn 1s linear;
+}
+
+@keyframes fadIn {
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
 
 .header-block .text h2{
     color: white;
@@ -190,7 +214,7 @@ section .filter-card {
 }
 
 .search-button:hover{
-    background: #ededed;
+    background: #f78b00;
     color: var(--blue);   
 }
 
@@ -255,7 +279,7 @@ section .card-item{
 }
 
 .card-item button:hover {
-    background: #dedede;
+    background: #f78b00;
     color: var(--blue);
 }
 
